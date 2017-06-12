@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/nama_proyek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inputsisi"
+        android:textColor="@color/Biru"
+        android:textSize="@dimen/abc_text_size_headline_material" />
+
+    <EditText
+        android:id="@+id/sisi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nama_proyek"
+        android:layout_below="@+id/nama_proyek"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:text="Proses" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="43dp"
+        android:textColor="@color/Merah" />
+
+</LinearLayout>

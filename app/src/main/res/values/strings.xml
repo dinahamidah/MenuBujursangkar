@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MenuBujursangkar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="MenuUtama">Bangun Datar Bujursangkar</string>
+
+    <color name="Biru">#0000FF</color>
+    <color name="Hijau">#00FF00</color>
+    <color name="Hitam">#000000</color>
+    <color name="Kuning">#FFFF00</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Merah">#FF0000</color>
+    <color name="Putih">#FFFFFF</color>
+    <color name="Slan">#00FFFF</color>
+    <string name="MU_Luas">Luas = S x S</string>
+    <string name="MU_Keliling">Keliling = 4 S</string>
+    <string name="MU_S1">Sisi = Keliling / 4</string>
+    <string name="MU_Keliling2">Keliling = 4 √ Luas</string>
+    <string name="MU_luas2">Luas = ( Keliling x Keliling ) /16</string>
+    <string name="MU_S2">Sisi = √ Luas</string>
+    <string name="inputsisi">Masukkan sisi Bujursangkar:</string>
+    <string name="inputluas">Masukkan Luas Bujursangkar:</string>
+    <string name="inputkeliling">Masukkan Keliling Bujursangkar:</string>
+</resources>
